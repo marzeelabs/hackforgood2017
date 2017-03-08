@@ -826,22 +826,22 @@ Developed by: <a href="http://www.meta-icg.com" target="blank">meta.ICG</a></p>
 </div>
 <div id="FormBox" class="col-md-6">
 <div class="form-area">
-<form role="form" action="/index/sendemail" method="POST">
+<form role="form" action="https://formspree.io/inesss111@gmail.com" method="POST">
 <br style="clear:both">
 <div class="form-group">
 <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
 </div>
 <div class="form-group">
-<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+<input type="text" class="form-control" id="email" name="_replyto" placeholder="Email" required>
 </div>
 <div class="form-group">
-<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+<input type="text" class="form-control" id="subject" name="_subject" placeholder="Subject" required>
 </div>
 <div class="form-group">
 <textarea class="form-control" name="message" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
 </div>
 <button id="submit" type="submit" name="submit" class="btn btn-primary pull-right" value="Send">SEND</button>
-<input type="hidden" name="_next" value="http://hackforgood.pt/#mailsent"/>
+<input type="hidden" name="_next" value="http://hackforgood.pt/index/en#mailsent"/>
 </form>
 <div id="mailsent" title="Basic dialog">
 <p>Your message was successfully sent!</p>
